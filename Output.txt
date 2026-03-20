@@ -1,0 +1,32 @@
+✅ Dataset Generated — Shape: (10000, 4)
+sentiment
+positive    0.4626
+negative    0.3437
+neutral     0.1937
+Name: proportion, dtype: float64
+
+🚀 Training Ensemble Model...
+
+📊 Model Evaluation:
+[[ 859    0    0]
+ [   0  484    0]
+ [   0    0 1157]]
+              precision    recall  f1-score   support
+
+    negative       1.00      1.00      1.00       859
+     neutral       1.00      1.00      1.00       484
+    positive       1.00      1.00      1.00      1157
+
+    accuracy                           1.00      2500
+   macro avg       1.00      1.00      1.00      2500
+weighted avg       1.00      1.00      1.00      2500
+
+✅ Accuracy: 1.0
+
+💾 Saved dataset as 'customer_feedback.xlsx' and 'customer_feedback.csv'
+
+🧠 Predicted Sentiment: NEGATIVE
+
+🧠 Predicted Sentiment: POSITIVE
+
+🧠 Predicted Sentiment: NEUTRAL
